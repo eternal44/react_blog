@@ -1,4 +1,4 @@
-# Stephen Grider:  React-redux routign tutorial
+# Stephen Grider:  React router tutorial
 
 ```bash
 	> npm install
