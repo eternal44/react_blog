@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 // removing this import in favor of using objects
 // import { bindActionCreators } from 'redux';
 import { fetchPosts } from '../actions/index';
+import { Link } from 'react-router';
 
 class PostsIndex extends Component {
   // lifecycle method - automatically called by react whenever this DOM is rendered for the first time
@@ -13,7 +14,12 @@ class PostsIndex extends Component {
 
   render() {
     return (
-      <div>List of blog posts</div>
+      <div className="text-xs-right">
+        <Link to="/posts/new" className="btn btn-primary">
+          Add a post
+        </Link>
+        List of blog posts
+      </div>
     );
   }
 }
