@@ -18,7 +18,6 @@ class PostsNew extends Component {
         // new path to navigate to
         this.context.router.push('/');
       })
-
   }
 
   render() {
