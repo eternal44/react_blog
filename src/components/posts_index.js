@@ -18,7 +18,9 @@ class PostsIndex extends Component {
         <Link to="/posts/new" className="btn btn-primary">
           Add a post
         </Link>
+        <div>
         List of blog posts
+        </div>
       </div>
     );
   }
